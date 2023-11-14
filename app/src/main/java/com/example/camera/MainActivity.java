@@ -8,6 +8,7 @@ import androidx.core.view.GestureDetectorCompat;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
     //public ImageView ugolLV;
     public ImageView text;
     public TextView cordy;
+    public Button kalkul;
     public float x0;
     public float x1;
     public float xu;
@@ -65,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
     public float deltaY;
     public int width;
     public int heigh;
+    public int flag;
 
 
     public static final String LOG_TAG = "myLogs";
@@ -117,6 +120,8 @@ public class MainActivity extends AppCompatActivity {
         text = findViewById(R.id.imageView2);
         cordy = findViewById(R.id.textView);
         cartinca.setOnTouchListener(touchListener);
+        kalkul = findViewById(R.id.button);
+        //myCameras[CAMERA1].openCamera();
 
 
         //cartinca.setX(10);
@@ -124,6 +129,15 @@ public class MainActivity extends AppCompatActivity {
         //cordy.setY(400);
 
         //GestureDetector = new GestureDetectorCompat();
+        //переход на калькулятор, ввод с клавиатуры
+        kalkul.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
+            }
+                                  });
+
 
 
         Log.d(LOG_TAG, "Запрашиваем разрешение");
@@ -141,6 +155,9 @@ public class MainActivity extends AppCompatActivity {
         mButtonToMakeShot =findViewById(R.id.button6);
         mImageView = findViewById(R.id.textureView);
 
+
+
+
         mButtonOpenCamera1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -150,6 +167,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
 
         mButtonOpenCamera2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -211,6 +229,9 @@ public class MainActivity extends AppCompatActivity {
             Log.e(LOG_TAG, e.getMessage());
             e.printStackTrace();
         }
+
+
+
 
 
     }
@@ -393,7 +414,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     @Override
     public void onPause() {
         if(myCameras[CAMERA1].isOpen()){myCameras[CAMERA1].closeCamera();}
@@ -566,4 +586,6 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
     };
+
+
 }

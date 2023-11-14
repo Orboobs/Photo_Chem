@@ -13,71 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginBottom="44dp"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="100sp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:backgroundTint="#00c853"
-                android:foreground="@drawable/experiment_fill0_wght400_grad0_opsz24"
-                app:iconTint="#DD1313" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="196dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="wrap_content"
-                android:layout_height="61dp"
-                android:accessibilityLiveRegion="none"
-                android:background="#2196F3"
-                android:backgroundTint="#00c853"
-                android:drawableRight="@drawable/photo_camera_fill0_wght400_grad0_opsz24"
-                android:drawableTint="#4BA2E4"
-                android:foregroundTint="#E60D0D"
-                android:text="СДЕЛАТЬ СНИМОК"
-                android:textColorHighlight="#AE0505"
-                android:textColorLink="#1AF323" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="match_parent"
-                android:layout_height="63dp"
-                android:backgroundTint="#00c853"
-                android:drawableTint="#FA0000"
-                android:text="КАМЕРА ПЕРЕДНЯЯ" />
-        </LinearLayout>
-
-    </LinearLayout>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
@@ -173,11 +112,63 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="116dp"
         android:background="#090000"
         android:text="Сфотографируйте химическое уравнение"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="28dp"
+        android:accessibilityLiveRegion="none"
+        android:backgroundTint="#C88500"
+        android:drawableRight="@drawable/photo_camera_fill0_wght400_grad0_opsz24"
+        android:drawableTint="#4BA2E4"
+        android:foregroundTint="#E60D0D"
+        android:text="СДЕЛАТЬ СНИМОК"
+        android:textColorHighlight="#AE0505"
+        android:textColorLink="#1AF323"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="242dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="644dp"
+        android:backgroundTint="#46C800"
+        android:drawableTint="#FA0000"
+        android:text="ВКЛЮЧИТЬ КАМЕРУ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="#00c853"
+        android:foreground="@drawable/experiment_fill0_wght400_grad0_opsz24"
+        app:iconTint="#DD1313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="51dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#E61616"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
