@@ -40,7 +40,7 @@ public class MainActivity2 extends AppCompatActivity {
         buton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Действия при клике на TextView
+                // Действия при клике на TextView/
                 // Инициализируем интерпретатор Python
 
                 Python py = Python.getInstance();
