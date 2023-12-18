@@ -14,7 +14,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.415"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,8 +22,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="156dp"
-        android:layout_marginTop="328dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="36dp"
         android:text="я текст"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -44,10 +44,10 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="372dp"
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="740dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_background" />
@@ -121,12 +121,12 @@
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="61dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginBottom="28dp"
+        android:layout_width="186dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="12dp"
         android:accessibilityLiveRegion="none"
-        android:backgroundTint="#C88500"
+        android:backgroundTint="#2E7D32"
         android:drawableRight="@drawable/photo_camera_fill0_wght400_grad0_opsz24"
         android:drawableTint="#4BA2E4"
         android:foregroundTint="#E60D0D"
@@ -140,9 +140,9 @@
         android:id="@+id/button4"
         android:layout_width="242dp"
         android:layout_height="69dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="644dp"
-        android:backgroundTint="#46C800"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="516dp"
+        android:backgroundTint="#2E7D32"
         android:drawableTint="#FA0000"
         android:text="ВКЛЮЧИТЬ КАМЕРУ"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -162,12 +162,13 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="51dp"
-        android:layout_height="46dp"
+        android:layout_width="43dp"
+        android:layout_height="44dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="28dp"
-        android:backgroundTint="#E61616"
-        android:text="Button"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#2E7D32"
+        android:drawableBottom="@drawable/experiment_fill0_wght400_grad0_opsz24"
+        android:drawableTint="#4BA1E3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

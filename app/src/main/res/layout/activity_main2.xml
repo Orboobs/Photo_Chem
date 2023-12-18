@@ -8,12 +8,12 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="104dp"
-        android:layout_height="76dp"
+        android:layout_width="140dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="612dp"
-        android:backgroundTint="#E61616"
-        android:text="Button"
+        android:layout_marginBottom="592dp"
+        android:backgroundTint="#2E7D32"
+        android:text="Назад"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -45,7 +45,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="312dp"
-        android:text="Button"
+        android:backgroundTint="#2E7D32"
+        android:text="Ввод"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
