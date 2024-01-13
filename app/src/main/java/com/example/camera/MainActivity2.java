@@ -40,23 +40,18 @@ public class MainActivity2 extends AppCompatActivity {
         buton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Действия при клике на TextView/
-                // Инициализируем интерпретатор Python
+
 
                 Python py = Python.getInstance();
 
-                // Загружаем модуль Python
+
                 PyObject module = py.getModule("helloworld");
 
-                // Вызываем функцию Python и получаем результат
+
                 PyObject result = module.callAttr("helloworld", etext.getText().toString());
                 String strResult = result.toString();
 
-                // Выводим результат на экран
 
-                //textView.setText(strResult);
-                //strResult = etext.getText().toString();
-                //textView.setText(etext.getText().toString());
                 textView.setText(strResult);
             }
         });
