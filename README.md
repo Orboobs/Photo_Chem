@@ -12,7 +12,8 @@
 
   Схемы, иллюстрирующие работу приложения:
   
-![image](https://github.com/Orboobs/Photo_Chem/assets/88493905/873587ee-1506-49a3-b065-2ea8b01e5d08)
+![image](https://github.com/Orboobs/Photo_Chem/assets/88493905/a93b7509-2874-4628-9cad-77b312badad9)
+
 
 
 
