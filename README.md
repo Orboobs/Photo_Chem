@@ -12,7 +12,8 @@
 
   Схемы, иллюстрирующие работу приложения:
   
-![image](https://github.com/Orboobs/Photo_Chem/assets/88493905/32c3760b-f030-4f4f-8def-9cad229c6e7b)
+![image](https://github.com/Orboobs/Photo_Chem/assets/88493905/873587ee-1506-49a3-b065-2ea8b01e5d08)
+
 
 
 Приложение написано на Java, а часть кода, взаимодействующая с базой дпнных и нейросетью, и сама нейросеть написаны на Python.
