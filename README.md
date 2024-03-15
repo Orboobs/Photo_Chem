@@ -11,10 +11,9 @@
   •	Вывод решения уравнения на экран
 
   Схемы, иллюстрирующие работу приложения:
-![image](https://github.com/Orboobs/PhotoChem/assets/88493905/0d561243-43b9-49e5-8602-9429deefd5cc)
+  
+![image](https://github.com/Orboobs/Photo_Chem/assets/88493905/32c3760b-f030-4f4f-8def-9cad229c6e7b)
 
-
-![image](https://github.com/Orboobs/PhotoChem/assets/88493905/736d6f9a-c5d5-4063-8fe0-00af00435a12)
 
 Приложение написано на Java, а часть кода, взаимодействующая с базой дпнных и нейросетью, и сама нейросеть написаны на Python.
 Для их использоания в приложении задействован Chaquopy SDK https://chaquo.com/chaquopy/
