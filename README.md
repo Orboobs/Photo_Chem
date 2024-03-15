@@ -22,7 +22,8 @@
 
 Фрагмент базы данных, состоящей из 4014 реакций:
 
-![image](https://github.com/Orboobs/PhotoChem/assets/88493905/00137d9e-b30b-47c4-b5e4-190cf6fa97ff)
+![image](https://github.com/Orboobs/Photo_Chem/assets/88493905/50046da1-550b-49ad-aa7f-54a923cb4493)
+
 
 Для распознавания реакций с фото будет написана и обучена нейронная сеть на языке Python 
 
